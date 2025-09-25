@@ -1,4 +1,4 @@
-from py_hive_code import hive
+from pyhive import hive
 import os
 import traceback
 
@@ -47,3 +47,4 @@ except Exception as e:
     traceback.print_exc()
 
 input("Press Enter to exit...")
+
