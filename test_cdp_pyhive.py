@@ -11,6 +11,7 @@ import sys
 # pip install kerberos
 # pip install pykerberos
 # pip install requests-kerberos
+# check principal, keytab_path, 
 
 
 def check_kerberos_ticket():
@@ -146,3 +147,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
